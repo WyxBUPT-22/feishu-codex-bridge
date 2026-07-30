@@ -1,0 +1,16 @@
+bridge.config.json
+.env
+.env.*
+!.env.example
+.data/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.lark-init-*
+.protocol-probe/
+.protocol-schema/
+.protocol-ts/
+node_modules/
+coverage/

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "lark": {
+    "profile": "codex-remote",
+    "allowedSenders": [
+      "ou_replace_with_your_open_id"
+    ],
+    "allowedChats": [],
+    "workbenchChats": [],
+    "p2pOnly": true,
+    "allowedMessageTypes": [
+      "text",
+      "post"
+    ],
+    "maxMessageAgeMinutes": 10
+  },
+  "larkCliEntry": null,
+  "repositories": {
+    "feishu-codex": {
+      "path": "E:\\projects\\feishu-codex"
+    }
+  },
+  "defaultRepository": "feishu-codex",
+  "codex": {
+    "sandbox": "workspace-write",
+    "approvalPolicy": "never",
+    "model": null,
+    "provider": null,
+    "maxRuntimeMinutes": 60,
+    "entry": null,
+    "appServer": {
+      "enabled": true
+    }
+  },
+  "queue": {
+    "concurrency": 1
+  },
+  "desktopSync": {
+    "pollIntervalMs": 5000
+  },
+  "limits": {
+    "maxPromptChars": 8000,
+    "maxReplyChars": 12000,
+    "processedMessageLimit": 2000,
+    "storedJobLimit": 500
+  },
+  "dataDirectory": "C:\\Users\\your-user\\AppData\\Local\\feishu-codex-bridge"
+}

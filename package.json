@@ -1,0 +1,26 @@
+{
+  "name": "feishu-codex-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "description": "Securely control a local Codex CLI from a Feishu bot.",
+  "engines": {
+    "node": ">=20"
+  },
+  "bridgeToolchain": {
+    "codex": "0.144.1",
+    "larkCli": "1.0.68"
+  },
+  "scripts": {
+    "start": "node src/main.js start",
+    "doctor": "node src/main.js doctor",
+    "sentinel": "node scripts/real-app-server-sentinel.mjs",
+    "snapshot": "node scripts/create-runtime-snapshot.mjs",
+    "deploy": "node scripts/deploy-runtime.mjs",
+    "verify-snapshot": "node scripts/verify-runtime-snapshot.mjs",
+    "test": "node --test",
+    "check": "node --check src/main.js && node --check scripts/runtime-bootstrap.mjs && node --check scripts/create-runtime-snapshot.mjs && node --check scripts/deploy-runtime.mjs",
+    "check:public": "node scripts/check-public-release.mjs"
+  }
+}
