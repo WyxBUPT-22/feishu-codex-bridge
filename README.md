@@ -4,6 +4,12 @@
 
 > 项目目前主要面向 Windows，且锁定桥接器专用的 Codex CLI 版本。它不是飞书或 OpenAI 的官方项目。首次部署请阅读 [Windows 安装指南](INSTALL_WINDOWS.md)；希望让 AI Agent 分阶段辅助安装时，请让它完整阅读 [Agent 安装执行协议](INSTALL_WITH_AGENT.md)。使用前请完整阅读[安全边界](#重要隔离边界)和[用户指南](USER_GUIDE.md)。
 
+## 演示视频
+
+<video src="https://github.com/user-attachments/assets/d0131c2e-797c-4d60-8bd5-cd056df60012" controls></video>
+
+[如果播放器未显示，点击这里观看演示视频](https://github.com/user-attachments/assets/d0131c2e-797c-4d60-8bd5-cd056df60012)
+
 ## 项目状态
 
 项目已用于日常移动端远程控制，但仍处于早期版本。Codex app-server 和 Hook 协议属于版本敏感接口；升级 Codex CLI 前必须重新运行测试与真实哨兵验证。安全问题请按 [SECURITY.md](SECURITY.md) 私下报告，参与开发请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
