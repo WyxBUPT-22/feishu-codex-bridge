@@ -8,7 +8,7 @@
 
 <video src="https://github.com/user-attachments/assets/d0131c2e-797c-4d60-8bd5-cd056df60012" controls></video>
 
-[如果播放器未显示，点击这里观看演示视频](https://github.com/user-attachments/assets/d0131c2e-797c-4d60-8bd5-cd056df60012)
+[如果播放器未显示，点击这里打开演示视频 Issue](https://github.com/WyxBUPT-22/feishu-codex-bridge/issues/1)
 
 ## 项目状态
 
